@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url("bg.jpg");
+    background-position: center;  
+    background-size: fit;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: solid black;
+    width:100%;
+    color:white;
+    background-color: black;
+}
+.nav-website{
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: white;
+    gap:2px;
+}
+#logo{
+    border-radius: 70px;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    margin-top: 7px;
+}
+#website-name{
+    font-size: 1.5rem;
+}
+
+.nav-buttons{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a, li{
+    text-decoration: none;
+    list-style-type: none;
+}
+.nav-name{
+    color:white;
+    padding: 10px;
+}
+.nav-searchbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    float: right;
+    padding: 0px 5px 0px 0px;
+}
+#nav-input{
+    border-radius: 15px;
+    padding: 7px;
+    width: 350px;
+    position: relative;
+    color: rgb(104, 226, 104);
+    text-indent: 5px;
+}
+.nav-image{
+    position: absolute;
+    width: 20px;
+    right: 137px;
+    align-items: center;
+    border-radius: 15px;
+    margin-top: 2px;
+}
+#nav-search{
+    right: 72px;
+    position: absolute;
+    border-radius: 15px;
+    padding: 3px;
+    width: 60px;
+    background-color: rgb(55, 156, 55);
+}
+#nav-clear{
+    right: 10px;
+    position: absolute;
+    border-radius: 15px;
+    padding: 3px;
+    width: 60px;
+    background-color: rgb(55, 156, 55);
+}
+.homepage{
+    display: flex;
+    align-items: center;
+}
+.left{
+    width: 100px;
+}
+.social-media-icons {
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+    position: fixed;
+    bottom: 120px;
+    left: 20px;
+}
+
+.social-icon {
+    font-size: 24px;
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: #ddd; /* Light color on hover */
+}
+.right{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.right h1{
+    font-size: 3rem;
+    color: white;
+}
+.right p{
+    font-size: 1rem;
+    color: white;
+}
+.right button{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(94, 228, 94);
+}
+#result{
+    margin-left: 200px;
+}
+.result-cards{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    border-radius: 20px;
+    background-color: gray;
+    color: white;
+    text-indent: 3px;
+}
+
+.result-img{
+    width: 500px;
+    border-radius: 20px;
+}
+.result-title{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.result-description{
+    color:black;
+}
